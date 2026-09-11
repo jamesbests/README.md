@@ -473,7 +473,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   &lt;/style&gt;
   &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css&quot;&gt;
   &lt;!-- =========================================================
-       ACE489 EDIT NOTES
+       Winplus EDIT NOTES
        1) พื้นหลัง: แก้ --bg-image ด้านบน หรือส่งรูปพื้นหลังมาให้ฉัน
        2) Google Tag: วางโค้ดในช่อง GOOGLE TAG / GTM ใน &lt;head&gt;
        3) สมัคร: https://t.ly/8rz88
@@ -1045,14 +1045,14 @@ apply(&quot;&quot;);
     .catch(function(){ show(ufa); });
 })();
 </script>
-<script id="ACE489-contact-fixed">
+<script id="Winplus-contact-fixed">
 (function(){
   function fireContact(label){
     try {
       if (typeof window.fbq === 'function') {
         window.fbq('track', 'Contact', {
-          content_name: label || 'ACE489 CTA',
-          source: 'ACE489'
+          content_name: label || 'Winplus CTA',
+          source: 'Winplus'
         });
         fbq('track', 'CompleteRegistration');
       }
@@ -1060,8 +1060,8 @@ apply(&quot;&quot;);
   }
 
   function bind(doc){
-    if(!doc || doc.__ACE489ContactFixed) return;
-    doc.__ACE489ContactFixed = true;
+    if(!doc || doc.__WinplusContactFixed) return;
+    doc.__WinplusContactFixed = true;
 
     doc.addEventListener('click', function(e){
       var el = e.target && e.target.closest
