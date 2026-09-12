@@ -695,7 +695,7 @@ body{
     &lt;section class=&quot;section glass&quot;&gt;
       &lt;div class=&quot;win-rate-wrapper&quot;&gt;
         &lt;div class=&quot;win-rate__frame&quot;&gt;
-          &lt;div class=&quot;win-rate__header&quot;&gt;ตารางเกมแตก&lt;/div&gt;
+          &lt;div class=&quot;win-rate__header&quot;&gt;ตารางเกม PG แตกหนักๆ&lt;/div&gt;
           &lt;div id=&quot;win-rate-grid&quot; class=&quot;win-rate__grid&quot;&gt;&lt;/div&gt;
           
         &lt;/div&gt;
@@ -808,7 +808,6 @@ body{
         const grid=document.getElementById(&quot;win-rate-grid&quot;); if(!grid)return;
         /* รูปเกม 16 รูปฝังในไฟล์ HTML โดยตรง เพื่อไม่ให้ Path แตก */
         const IMAGES=[
-          &quot;assets/image_001.jpg&quot; /* treasures-of-aztec.jpg */,
           &quot;assets/image_002.jpg&quot; /* Jurassic-Kingdom.jpg */,
           &quot;assets/image_003.jpg&quot; /* dragon-hatch.jpg */,
           &quot;assets/image_004.jpg&quot; /* dragons-treasure-quest.jpg */,
@@ -838,7 +837,8 @@ body{
           &quot;assets/image_027.jpg&quot; /* NinjavsSamurai.jpg */,
           &quot;assets/image_028.jpg&quot; /* queen-of-bounty.jpg */,
           &quot;assets/image_029.jpg&quot; /* rise-of-apollo.jpg */,
-          &quot;assets/image_030.jpg&quot; /* win-win-won.jpg */
+          &quot;assets/image_030.jpg&quot; /* win-win-won.jpg */,
+          &quot;assets/image_001.jpg&quot; /* treasures-of-aztec.jpg */
         ];
         const randSec=()=&gt;Math.floor(10+Math.random()*290);
         const randPct=()=&gt;Math.floor(70+Math.random()*31);
